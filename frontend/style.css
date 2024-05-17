@@ -1,0 +1,74 @@
+/* Style the container element */
+.container {
+    width: 600px; /* Adjust width as needed */
+    margin: 50px auto; /* Center the container horizontally */
+    padding: 30px;
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #f2f2f2; /* Light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Style the form */
+  .form {
+    display: flex;
+    flex-wrap: wrap; /* Allow form elements to wrap to next line if needed */
+    margin: 0 auto; /* Center the form within the container */
+  }
+  
+  /* Style the form groups */
+  .form-group {
+    width: 50%; /* Make each form group half the container width */
+    margin-bottom: 15px;
+  }
+  
+  /* Style the labels */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the input fields */
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Add rounded corners to input fields */
+    font-size: 16px;
+  }
+  
+  /* Style the select elements */
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Add rounded corners to select elements */
+    font-size: 16px;
+  }
+  
+  /* Style the submit button */
+  .submit {
+    background-color: #4CAF50; /* Green color for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Add rounded corners to button */
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%; /* Make button full width */
+  }
+  
+  /* Style the submit button on hover */
+  .submit:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  /* Style the result area */
+  .result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
